@@ -1,0 +1,25 @@
+/*Reglas CSS por tipo de elemento, identificador, y clase*/
+body {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    width: 300px;
+    padding: 1em; /*relativa respecto del tamaño de letra del elemento Unidades relativas*/
+}
+
+h1 {
+    font-size: 180%;
+}
+
+footer {
+    width: 300px;
+    padding: 1em; /*relativa respecto del tamaño de letra del elemento Unidades relativas*/
+}
+
+#copyright {
+    font-size: 75%;
+    text-align: right;
+}
+
+.base_color {
+    color: blue;
+}
